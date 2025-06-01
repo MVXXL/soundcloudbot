@@ -1,55 +1,55 @@
-![Spotify Bot](soclaud.png)
+![SoundCloud Bot](soclaud.png)
 
-# Spotify Bot
+# SoundCloud Bot
 
-A powerful Discord music bot built with Python that provides high-quality music playback and advanced features.
+Мощный музыкальный бот для Discord, написанный на Python, который обеспечивает высококачественное воспроизведение музыки и продвинутые функции.
 
-## Requirements
+## Требования
 
 - Python 3.10.7
 - Discord.py (disnake)
-- Discord Bot Token
-- Java 17 (for Lavalink)
+- Токен Discord бота
+- Java 17 (для Lavalink)
 
-## Features
+## Возможности
 
-- High-quality music playback
-- Spotify integration
-- Queue management
-- Volume control
-- Track history
-- Daily mixes
-- Beautiful music banners
-- Slash commands support
+- Высококачественное воспроизведение музыки
+- Интеграция с SoundCloud
+- Управление очередью воспроизведения
+- Регулировка громкости
+- История прослушанных треков
+- Ежедневные миксы
+- Красивые музыкальные баннеры
+- Поддержка слеш-команд
 
-## Setup
+## Установка
 
-1. Clone the repository
-2. Install dependencies:
+1. Клонируйте репозиторий
+2. Установите зависимости:
 ```bash
 pip install -r requirements.txt
 ```
-3. Create a `.env` file with your Discord bot token:
+3. Создайте файл `.env` с токеном вашего Discord бота:
 ```
-TOKEN=your_discord_bot_token
+TOKEN=ваш_токен_бота
 ```
-4. Download Lavalink.jar and place it in the `lavalink` folder
-5. Create `application.yml` in the `lavalink` folder
-6. Run the bot:
+4. Скачайте Lavalink.jar и поместите его в папку `lavalink`
+5. Создайте `application.yml` в папке `lavalink`
+6. Запустите бота:
 ```bash
 python start.py
 ```
 
-## Commands
+## Команды
 
-- `/play` - Play a song or playlist
-- `/stop` - Stop playback
-- `/skip` - Skip current track
-- `/queue` - Show current queue
-- `/volume` - Adjust volume
-- `/mix` - Create a daily mix
-- `/history` - View track history
+- `/play` - Воспроизвести трек или плейлист
+- `/stop` - Остановить воспроизведение
+- `/skip` - Пропустить текущий трек
+- `/queue` - Показать текущую очередь
+- `/volume` - Настроить громкость
+- `/mix` - Создать ежедневный микс
+- `/history` - Просмотреть историю треков
 
-## License
+## Лицензия
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+Этот проект распространяется под лицензией MIT - подробности в файле LICENSE. 
